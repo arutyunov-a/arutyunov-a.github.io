@@ -1,0 +1,162 @@
+* {
+
+ 	margin: 0;
+ 	padding: 0;
+}
+body{
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Arial;
+}
+/*HEADER*/
+
+.header{
+
+	background-color: #395292;
+	opacity: 0.9;
+}
+
+.container{
+
+	// width: 1215px;
+	max-width: 1215px;
+	margin: 0 auto;
+}
+
+.header .container{
+
+	height: 36px;
+}
+
+.menu{
+	float: right;
+}
+
+.top-menu li{
+	display: inline;
+	font-size: 14px;
+	float: left;
+	padding-top: 14px;
+    color: #ffffff;
+}
+
+.header li a {
+
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px;
+}
+.header li a:hover {
+	text-decoration: underline;
+}
+
+.header .links a{
+	text-decoration: underline;
+}
+
+/*REGISTER FORM*/
+
+
+.wrapper{
+	width: 560px;
+	min-height: 800px;
+	margin: 200px auto 0; // начинаем сверху и по часовой стрелке
+	// margin-top: 200px;
+	// margin-right: auto;
+	// margin-bottom: 0;
+	// margin-left: auto;
+}
+.register-form-title{
+	margin-bottom: 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+}
+
+.register-form{
+	// background: url(../img/cadastre.png) no-repeat;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	color: #fff;
+}
+.form-row{
+	width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+}
+.form-row input{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	border: none;
+	border-bottom: rgba(255,255,255,0.5);
+}
+
+.divider {
+	text-align: center;
+	position: relative;
+
+}
+.divider span {
+	margin-left: 18px;
+
+}
+
+.line {
+	border-top: 1px solid #666666;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	width: 130px;
+}
+.left.line {
+	left: 10px;
+}
+
+.right.line {
+	right: -10px;
+}
+
+.form-row input:focus{
+	background: rgb(59, 153, 252);
+}
+.form-row .checkbox{
+	width: auto;
+	display: inline-block;
+}
+
+.form-row button{
+	padding: 10px 15px;
+	cursor: pointer;
+	border-radius: 3px;
+	border: none;
+}
+.form-row button:hover{
+	opacity: 0.8;
+}
+.text-center{
+	text-align: center;
+}
+
+.form-row a {
+	padding: 13px 10px;
+	width: 100%;
+	background-color: #395292;
+	color: #fff;
+	border-radius: 3px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.agree .p {
+	display: inline-block;
+	font-size: 8px;
+}
+
+
+
